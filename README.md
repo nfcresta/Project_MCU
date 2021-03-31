@@ -44,7 +44,7 @@ Blank Panther has the highest scores for both Metascore and Tomatometer for MCU 
 Third movies in each franchise have the best Tomatometer average (Thor: Ragnarok, Captain America: Civil War, Iron Man 3, Avengers: Infinity War).
 Worst Tomatometer run happened between 2008-2012, including Incredible Hulk (67%), Iron Man 2 (73%) and Thor (77%); none of these movies being able to muster more than an 80% rating.
 
-![critical_reception](output_data/CriticalReceptionWorldwide.png)
+![critical_reception](output_data/CriticalReceptionWorldwide.png? raw=True "critical_reception")
 
 ## IMDb Scores for each Film
 Bar chart showing IMDb user ratings by MCU movie. 
