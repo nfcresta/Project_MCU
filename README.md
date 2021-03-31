@@ -44,13 +44,15 @@ Blank Panther has the highest scores for both Metascore and Tomatometer for MCU 
 Third movies in each franchise have the best Tomatometer average (Thor: Ragnarok, Captain America: Civil War, Iron Man 3, Avengers: Infinity War).
 Worst Tomatometer run happened between 2008-2012, including Incredible Hulk (67%), Iron Man 2 (73%) and Thor (77%); none of these movies being able to muster more than an 80% rating.
 
-![critical_reception](output_data/IMDbScores.png?raw=true "critical_reception")
+![critical_reception](output_data/RT_and_MC.png?raw=true "critical_reception")
 
 ## IMDb Scores for each Film
 Bar chart showing IMDb user ratings by MCU movie. 
 Movies are still shown in chronological order, except x-axis data labels are movie names instead of release dates.
 Lowest scoring movie is Incredible Hulk with 6.7; highest score is tied between the last 2 Avengers movies at an 8.4 rating (Infinity War and Endgame).
 Similar to the previous bar chart, there is no obvious trend as it relates to time.
+
+![IMDb_scores](output_data/IMDbScores.png?raw=true "IMDb_scores")
 
 ## Worldwide Gross vs. Budget
 Bar chart showing worldwide gross revenues vs. budget per MCU movie.
@@ -59,6 +61,8 @@ Immediately you can see the revenue for almost every MCU movie surpassed the bud
 Highest worldwide gross revenue is Avengers: Endgame with the closest to it being Avengers: Infinity War. 
 The highest revenues were seen in Phase 3 with a caveat being that Phase 3 has significantly more movies in it than either Phase 1 or 2.
 
+![world_gross_vs_budget](output_data/WorldwideVBudget.png?raw=true "world_gross_vs_budget")
+
 ## Opening Box Office Gross revenue
 Line chart showing Opening box office gross revenue graphed against each movie.
 Movies are still shown in chronological order, except x-axis data labels are movie names instead of release dates.
@@ -66,21 +70,29 @@ The distribution seen in this graph follows an extremely similar pattern to the 
 There is a slight positive trend, with the biggest spikes being the Avengers movies.
 Surprisingly, Thor (2011) has the lowest opening box office gross revenue, even though it was not the lowest rated (i.e. The Incredible Hulk).
 
+![Opening_boxoffice](output_data/OpeningBoxOffice.png?raw=true "Opening_boxoffice")
+
 ## Domestic Gross vs. International Gross
 Line chart showing Domestic vs. International gross revenues graphed against each movie.
 Movies are still shown in chronological order, except x-axis data labels are movie names instead of release dates.
 An interesting observation is that for most of Phase 1, domestic and international gross revenues were almost the same. As time goes on and Phase 2 and 3 are created and released, the international footprint grows.
+
+![Dom_Intntl](output_data/DomesticVInternational.png?raw=true "Dom_Intntl")
 
 ## Critic reception vs. Worldwide Box Office revenue
 Scatterplot showing relationship between critic reception (Tomatometer) to worldwide box office revenues.
 Linear regression and correlation coefficient calculated/added to the graph as well.
 Based on correlation coefficient, there is a positive correlation (not strong, but existent) between Tomatometer and Worldwide Box Office revenues. Meaning, as Tomatometer rating increases, Worldwide Box Office revenues tend to increase as well. 
 
+![critic_boxoffice](output_data/CriticalReceptionVWorldwide.png?raw=true "critic_boxoffice")
+
 ## Widest Theater release
 Line chart showing widest theater release per movie.
 Movies are still shown in chronological order, except x-axis data labels are movie names instead of release dates.
 There is a much stronger positive trend with this data versus the revenues. Widest theater releases for each movie increased dramatically throughout the life of the MCU franchise.
 Additionally, it seems there was a tendency to release the group films (i.e. Avengers, Iron Man) to a greater number of theaters than solo films with the exception of Spider-Man: Far From Home - the last movie of Phase 3 has the highest theater release even though it’s a solo film.
+
+![widest_release](output_data/WidestTheatreRelease.png?raw=true "widest_release")
 
 ## Discussion & Post-Mortem
 Reminding ourselves of our findings:
