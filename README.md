@@ -92,7 +92,7 @@ Movies are still shown in chronological order, except x-axis data labels are mov
 There is a much stronger positive trend with this data versus the revenues. Widest theater releases for each movie increased dramatically throughout the life of the MCU franchise.
 Additionally, it seems there was a tendency to release the group films (i.e. Avengers, Iron Man) to a greater number of theaters than solo films with the exception of Spider-Man: Far From Home - the last movie of Phase 3 has the highest theater release even though it’s a solo film.
 
-![widest_release](output_data/WidestTheatreRelease.png?raw=true "widest_release")
+![widest_release](output_data/WidestTheaterRelease.png?raw=true "widest_release")
 
 ## Discussion & Post-Mortem
 Reminding ourselves of our findings:
